@@ -217,6 +217,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-transform: uppercase;
+  background-position: center right;
 }
 .wrraper__tachen {
   min-height: 100dvh;
@@ -230,10 +231,10 @@
 .desk__tachen,
 .btn__tachen {
   font-weight: 500;
-  font-size: clamp(8px, 2vw, 18px);
+  font-size: clamp(15px, 2vw, 18px);
 }
 .desk__tachen {
-  margin-bottom: 1.375em;
+  margin-bottom: 22px;
 }
 .title__tachen {
   font-weight: 700;
@@ -243,9 +244,10 @@
   margin-bottom: 0.3125em;
 }
 .btn__tachen {
-  padding: 4px 19px 4px 26px;
+  padding: 4px 19px;
   background-color: #22262a;
   color: #fff;
+  text-transform: uppercase;
 }
 
 @media (hover: hover) {
